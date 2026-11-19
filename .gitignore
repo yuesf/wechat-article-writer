@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 凭据与本地配置：绝不入库
+.secrets/
+wechat_mp.env
+*.env
+!*.env.example
+
+# 写作过程产物
+dist/
+assets/
+work/
+tmp/
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
